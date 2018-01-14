@@ -221,6 +221,7 @@ img{
 	height:299px;
 	float: left;
 	overflow: hidden;
+	position: relative;
 }
 .food ul li .food-t .food-pic img{
 	width: 300px;
@@ -484,7 +485,6 @@ img{
 	width: 600px;
 	height: 52px;
 	margin-left: 8px;
-	border: 0;
 	border: solid 1px #d4d4d4;
 	float: left;
 	font-size: 30px;
@@ -495,7 +495,6 @@ img{
 	width: 410px;
 	height: 50px;
 	margin-left: 8px;
-	border: 0;
 	border: solid 1px #d4d4d4;
 	float: right;
 	font-size: 30px;
@@ -566,7 +565,6 @@ img{
 	font-size: 20px;
 	color: #fff;
 	text-align: center;
-	height: 42px;
 	float: left;
 	margin: 0 40px 0 370px;
 }
@@ -579,7 +577,7 @@ img{
 	font-size: 20px;
 	color: #fff;
 	text-align: center;
-	height: 42px;
+	line-height: 42px;
 	float: left;
 	margin: 0 40px;
 }
@@ -625,6 +623,9 @@ img{
 	font-size: 14px;
 	color: #737373;
 	float: left;
+}
+.foot-bg .foot-part .foot dl dd a:hover{
+	color: #ff6700;
 }
 .foot-bg .foot-part .foot .foot-tel{
 	width: 220px;

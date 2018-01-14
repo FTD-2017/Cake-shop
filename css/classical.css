@@ -116,7 +116,7 @@ body{
 	left: 0;
 	opacity: 0;
 }
-.banner .Imgbox img:first-child{
+.banner .Imgbox .img-active{
 	opacity: 1;
 }
 .banner .dianbox{
@@ -367,6 +367,9 @@ body{
 	font-size: 14px;
 	color: #737373;
 	float: left;
+}
+.foot-bg .foot-part .foot dl dd a:hover{
+	color: #ff6700;
 }
 .foot-bg .foot-part .foot .foot-tel{
 	width: 220px;
